@@ -409,11 +409,50 @@
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [],
-    "used_designators": "",
+    "top_level_sheets": [
+      {
+        "filename": "eval-board.kicad_sch",
+        "name": "eval-board",
+        "uuid": "001deb51-e2bc-4808-a60f-f8c2db35ddb4"
+      }
+    ],
+    "used_designators": "U1",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "001deb51-e2bc-4808-a60f-f8c2db35ddb4",
+      "eval-board"
+    ],
+    [
+      "d477cdce-d565-4e67-a2fc-ec6452c589af",
+      "FCU"
+    ],
+    [
+      "997404d4-a015-475a-b72f-25b9101e5143",
+      "WCU"
+    ],
+    [
+      "3c4a9167-0875-4725-b3d8-d50b94f375e0",
+      "IMU0"
+    ],
+    [
+      "134ac392-7a4d-4015-a049-8621d4823850",
+      "IMU1"
+    ],
+    [
+      "38587b22-51ce-43ce-814a-378e4a5bb269",
+      "Barometer"
+    ],
+    [
+      "29c54a7d-97fd-4cc4-bc5e-1c53e37c5e36",
+      "Magnetometer"
+    ],
+    [
+      "4467ed8e-a599-4faa-ac28-465a5ae89412",
+      "PMU"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

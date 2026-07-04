@@ -2,9 +2,331 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 001deb51-e2bc-4808-a60f-f8c2db35ddb4)
+	(uuid "001deb51-e2bc-4808-a60f-f8c2db35ddb4")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 143.51 25.4)
+		(size 22.86 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "134ac392-7a4d-4015-a049-8621d4823850")
+		(property "Sheetname" "IMU1"
+			(at 143.51 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu1.kicad_sch"
+			(at 143.51 48.8446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "eval-board"
+				(path "/001deb51-e2bc-4808-a60f-f8c2db35ddb4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 214.63 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "29c54a7d-97fd-4cc4-bc5e-1c53e37c5e36")
+		(property "Sheetname" "Magnetometer"
+			(at 214.63 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mag.kicad_sch"
+			(at 214.63 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "eval-board"
+				(path "/001deb51-e2bc-4808-a60f-f8c2db35ddb4"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 25.4)
+		(size 22.86 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "38587b22-51ce-43ce-814a-378e4a5bb269")
+		(property "Sheetname" "Barometer"
+			(at 180.34 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "baro.kicad_sch"
+			(at 180.34 50.1146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "eval-board"
+				(path "/001deb51-e2bc-4808-a60f-f8c2db35ddb4"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 25.4)
+		(size 22.86 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3c4a9167-0875-4725-b3d8-d50b94f375e0")
+		(property "Sheetname" "IMU0"
+			(at 109.22 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu0.kicad_sch"
+			(at 109.22 47.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "eval-board"
+				(path "/001deb51-e2bc-4808-a60f-f8c2db35ddb4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 88.9)
+		(size 40.64 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4467ed8e-a599-4faa-ac28-465a5ae89412")
+		(property "Sheetname" "PMU"
+			(at 30.48 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pmu.kicad_sch"
+			(at 30.48 127.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "eval-board"
+				(path "/001deb51-e2bc-4808-a60f-f8c2db35ddb4"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 77.47)
+		(size 38.1 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "997404d4-a015-475a-b72f-25b9101e5143")
+		(property "Sheetname" "WCU"
+			(at 176.53 76.7584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wcu.kicad_sch"
+			(at 176.53 118.6946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "eval-board"
+				(path "/001deb51-e2bc-4808-a60f-f8c2db35ddb4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 71.12)
+		(size 52.07 64.77)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d477cdce-d565-4e67-a2fc-ec6452c589af")
+		(property "Sheetname" "FCU"
+			(at 109.22 70.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fcu.kicad_sch"
+			(at 109.22 136.4746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "eval-board"
+				(path "/001deb51-e2bc-4808-a60f-f8c2db35ddb4"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
