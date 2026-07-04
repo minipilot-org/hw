@@ -190,8 +190,8 @@
 		)
 	)
 	(sheet
-		(at 30.48 88.9)
-		(size 40.64 38.1)
+		(at 35.56 92.71)
+		(size 17.78 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -206,7 +206,7 @@
 		)
 		(uuid "4467ed8e-a599-4faa-ac28-465a5ae89412")
 		(property "Sheetname" "PMU"
-			(at 30.48 88.1884 0)
+			(at 35.56 91.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -217,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "pmu.kicad_sch"
-			(at 30.48 127.5846 0)
+			(at 35.56 105.9946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -225,6 +225,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VIN" input
+			(at 35.56 95.25 180)
+			(uuid "7f1cb39e-1007-4f9e-997f-867e306d2405")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V" output
+			(at 53.34 95.25 0)
+			(uuid "8cb9d272-822e-4c94-85f9-6b27f14f90c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3A" output
+			(at 53.34 97.79 0)
+			(uuid "75f9e3ee-3927-4dca-ab60-c8a7bb002482")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3D_PG" output
+			(at 53.34 102.87 0)
+			(uuid "d9ad31e9-c8aa-4a67-9f4d-7e034eeddcae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3D" output
+			(at 53.34 100.33 0)
+			(uuid "d8b97a67-90d2-4187-a516-5a033d97550a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
