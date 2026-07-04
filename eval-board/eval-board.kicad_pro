@@ -485,7 +485,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "CustomPower"
+    ]
   },
   "meta": {
     "filename": "eval-board.kicad_pro",
@@ -648,7 +650,7 @@
         "uuid": "001deb51-e2bc-4808-a60f-f8c2db35ddb4"
       }
     ],
-    "used_designators": "L1,R1-6,C1-12,#PWR1-10,U1-3",
+    "used_designators": "#FLG1-4,L1,R1-6,C1-14,#PWR1-20,U1-4",
     "variants": []
   },
   "sheets": [
@@ -666,7 +668,7 @@
     ],
     [
       "3c4a9167-0875-4725-b3d8-d50b94f375e0",
-      "IMU0"
+      "IMU0 - LSM6DSO"
     ],
     [
       "134ac392-7a4d-4015-a049-8621d4823850",
