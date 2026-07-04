@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 143.51 25.4)
-		(size 22.86 22.86)
+		(at 69.85 38.1)
+		(size 20.32 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -21,8 +21,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "134ac392-7a4d-4015-a049-8621d4823850")
-		(property "Sheetname" "IMU1"
-			(at 143.51 24.6884 0)
+		(property "Sheetname" "IMU1 - BMI270"
+			(at 69.85 37.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "imu1.kicad_sch"
-			(at 143.51 48.8446 0)
+			(at 69.85 50.1146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,6 +41,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "INT1" output
+			(at 90.17 40.64 0)
+			(uuid "a674f737-b5f6-41b5-8900-1bde7182024d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT2" output
+			(at 90.17 43.18 0)
+			(uuid "b6a979bf-d2d3-4aea-b7d0-97b95646fb81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDIO" bidirectional
+			(at 69.85 40.64 180)
+			(uuid "a43fa508-65a5-4201-9ece-eaa7c9657cb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS" input
+			(at 69.85 45.72 180)
+			(uuid "fca811e6-b7c7-4bd9-acb3-44a550f8d582")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 69.85 43.18 180)
+			(uuid "54e132b0-37ae-4461-adf7-f855ce0e0218")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -52,8 +102,8 @@
 		)
 	)
 	(sheet
-		(at 214.63 25.4)
-		(size 25.4 25.4)
+		(at 132.08 38.1)
+		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +118,7 @@
 		)
 		(uuid "29c54a7d-97fd-4cc4-bc5e-1c53e37c5e36")
 		(property "Sheetname" "Magnetometer"
-			(at 214.63 24.6884 0)
+			(at 132.08 37.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +129,7 @@
 			)
 		)
 		(property "Sheetfile" "mag.kicad_sch"
-			(at 214.63 51.3846 0)
+			(at 132.08 50.1146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -87,6 +137,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 132.08 40.64 180)
+			(uuid "ad15d705-5215-4f9e-a3de-e67c735097d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 132.08 43.18 180)
+			(uuid "d23b71d3-1c15-4855-9bd6-2122cd0e83ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -98,8 +168,8 @@
 		)
 	)
 	(sheet
-		(at 180.34 25.4)
-		(size 22.86 24.13)
+		(at 100.33 38.1)
+		(size 19.05 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -113,8 +183,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "38587b22-51ce-43ce-814a-378e4a5bb269")
-		(property "Sheetname" "Barometer"
-			(at 180.34 24.6884 0)
+		(property "Sheetname" "Barometer - BMP388"
+			(at 100.33 37.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +195,7 @@
 			)
 		)
 		(property "Sheetfile" "baro.kicad_sch"
-			(at 180.34 50.1146 0)
+			(at 100.33 50.1146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -133,6 +203,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 100.33 40.64 180)
+			(uuid "4cd17e06-da49-4189-ab7a-87f7e3383aa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT" output
+			(at 119.38 40.64 0)
+			(uuid "218f0157-52eb-4db2-8404-71d8e3e46413")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 100.33 43.18 180)
+			(uuid "1da31feb-995e-491c-bb5f-875cf686fb05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -144,7 +244,7 @@
 		)
 	)
 	(sheet
-		(at 109.22 29.21)
+		(at 41.91 38.1)
 		(size 17.78 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -160,7 +260,7 @@
 		)
 		(uuid "3c4a9167-0875-4725-b3d8-d50b94f375e0")
 		(property "Sheetname" "IMU0 - LSM6DSO"
-			(at 109.22 28.4984 0)
+			(at 41.91 37.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -171,7 +271,7 @@
 			)
 		)
 		(property "Sheetfile" "imu0.kicad_sch"
-			(at 109.22 41.2246 0)
+			(at 41.91 50.1146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -182,7 +282,7 @@
 			)
 		)
 		(pin "SDIO" bidirectional
-			(at 109.22 31.75 180)
+			(at 41.91 40.64 180)
 			(uuid "1d405916-97a8-47c8-9248-cb6fc95d54f0")
 			(effects
 				(font
@@ -191,18 +291,8 @@
 				(justify left)
 			)
 		)
-		(pin "SCL" input
-			(at 109.22 34.29 180)
-			(uuid "82d19a69-5b82-4fe3-a231-49c5b8a70fc5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "CS" input
-			(at 109.22 36.83 180)
+			(at 41.91 45.72 180)
 			(uuid "f7b5ddac-98df-4499-b8a2-484cda7d3687")
 			(effects
 				(font
@@ -212,7 +302,7 @@
 			)
 		)
 		(pin "INT2" output
-			(at 127 34.29 0)
+			(at 59.69 43.18 0)
 			(uuid "4ddb3229-da0e-49be-aacc-dfc43f961e55")
 			(effects
 				(font
@@ -222,13 +312,23 @@
 			)
 		)
 		(pin "INT1" output
-			(at 127 31.75 0)
+			(at 59.69 40.64 0)
 			(uuid "f63cc293-7df0-4aec-964a-905d4d628a41")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "SCLK" input
+			(at 41.91 43.18 180)
+			(uuid "e73e4d11-5f02-477a-8330-f904dbb595f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -240,7 +340,7 @@
 		)
 	)
 	(sheet
-		(at 38.1 88.9)
+		(at 43.18 67.31)
 		(size 19.05 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -256,7 +356,7 @@
 		)
 		(uuid "4467ed8e-a599-4faa-ac28-465a5ae89412")
 		(property "Sheetname" "PMU"
-			(at 38.1 88.1884 0)
+			(at 43.18 66.5984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -267,7 +367,7 @@
 			)
 		)
 		(property "Sheetfile" "pmu.kicad_sch"
-			(at 38.1 99.6446 0)
+			(at 43.18 78.0546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -278,7 +378,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 38.1 91.44 180)
+			(at 43.18 69.85 180)
 			(uuid "7f1cb39e-1007-4f9e-997f-867e306d2405")
 			(effects
 				(font
@@ -288,7 +388,7 @@
 			)
 		)
 		(pin "+3V3D_PG" output
-			(at 57.15 91.44 0)
+			(at 62.23 69.85 0)
 			(uuid "d9ad31e9-c8aa-4a67-9f4d-7e034eeddcae")
 			(effects
 				(font

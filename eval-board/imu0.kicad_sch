@@ -1196,7 +1196,7 @@
 		)
 		(uuid "4535fd72-4793-481f-b36b-e1baaa67f5d1")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "SCLK"
 		(shape input)
 		(at 166.37 59.69 0)
 		(effects

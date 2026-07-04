@@ -650,7 +650,7 @@
         "uuid": "001deb51-e2bc-4808-a60f-f8c2db35ddb4"
       }
     ],
-    "used_designators": "#FLG1-4,L1,R1-6,C1-14,#PWR1-20,U1-4",
+    "used_designators": "#FLG1-4,L1,R1-6,C1-17,#PWR1-30,U1-7",
     "variants": []
   },
   "sheets": [
@@ -672,11 +672,11 @@
     ],
     [
       "134ac392-7a4d-4015-a049-8621d4823850",
-      "IMU1"
+      "IMU1 - BMI270"
     ],
     [
       "38587b22-51ce-43ce-814a-378e4a5bb269",
-      "Barometer"
+      "Barometer - BMP388"
     ],
     [
       "29c54a7d-97fd-4cc4-bc5e-1c53e37c5e36",
