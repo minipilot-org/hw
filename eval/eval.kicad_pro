@@ -648,7 +648,7 @@
         "uuid": "93973d81-e56e-4416-82f2-1dfd4a60638c"
       }
     ],
-    "used_designators": "J1-3,L1,R1-5,#PWR1-13,C1-10,U1-3",
+    "used_designators": "J1-3,L1,R1-5,#PWR1-22,C1-14,U1-5",
     "variants": []
   },
   "sheets": [
@@ -659,6 +659,14 @@
     [
       "ef3348ff-4a6a-46b3-ac3b-566adfd58649",
       "Power"
+    ],
+    [
+      "1a3fb14e-63f3-45d6-ae16-e662f1a21a3b",
+      "IMU0 - LSM6DSO"
+    ],
+    [
+      "23ac5bea-44ab-45c0-b875-f9d010f2f22c",
+      "IMU1 - BMI270"
     ]
   ],
   "text_variables": {},

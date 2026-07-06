@@ -6,8 +6,220 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 43.18 35.56)
-		(size 33.02 35.56)
+		(at 76.2 46.99)
+		(size 17.78 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1a3fb14e-63f3-45d6-ae16-e662f1a21a3b")
+		(property "Sheetname" "IMU0 - LSM6DSO"
+			(at 76.2 46.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu0.kicad_sch"
+			(at 76.2 60.2746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MISO" output
+			(at 76.2 52.07 180)
+			(uuid "9c40ce7b-bddd-4591-b294-3bcf34f95d75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 76.2 49.53 180)
+			(uuid "b38d4c05-de67-4678-98af-411699ac7b95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT2" output
+			(at 93.98 52.07 0)
+			(uuid "de728998-b175-40f1-86ce-f5e9d69ff8f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS" input
+			(at 76.2 57.15 180)
+			(uuid "0acf0bda-7425-42d7-a92f-221f6855e0f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 76.2 54.61 180)
+			(uuid "d78538af-8423-41cf-8526-b73257fa1028")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT1" output
+			(at 93.98 49.53 0)
+			(uuid "d88f4380-9116-43d5-b44d-467ddea2c10a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "eval"
+				(path "/93973d81-e56e-4416-82f2-1dfd4a60638c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 46.99)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "23ac5bea-44ab-45c0-b875-f9d010f2f22c")
+		(property "Sheetname" "IMU1 - BMI270"
+			(at 104.14 46.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu1.kicad_sch"
+			(at 104.14 60.2746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MOSI" input
+			(at 104.14 49.53 180)
+			(uuid "a470a27c-9dba-4b36-ba78-4368480f0399")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT2" output
+			(at 123.19 52.07 0)
+			(uuid "e58c27bd-4422-43c0-9eb7-d0eae7d248a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS" input
+			(at 104.14 57.15 180)
+			(uuid "26c6f986-6778-486b-b3b4-ec1cb1c691a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 104.14 54.61 180)
+			(uuid "0e74c904-432d-4776-82bf-a2754647be0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" output
+			(at 104.14 52.07 180)
+			(uuid "526d5f02-0510-4e00-b2d2-b5f762b0fa7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT1" output
+			(at 123.19 49.53 0)
+			(uuid "e56aece7-b76f-485a-8a8b-d1f9ba4c1660")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "eval"
+				(path "/93973d81-e56e-4416-82f2-1dfd4a60638c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 46.99)
+		(size 19.05 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +234,7 @@
 		)
 		(uuid "ef3348ff-4a6a-46b3-ac3b-566adfd58649")
 		(property "Sheetname" "Power"
-			(at 43.18 34.8484 0)
+			(at 43.18 46.2784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +245,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 43.18 71.7046 0)
+			(at 43.18 60.2746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,6 +253,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "V_BAT" input
+			(at 43.18 49.53 180)
+			(uuid "29b4cc5c-5d0d-4400-8645-6db58dd8260d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V_EXT" input
+			(at 43.18 52.07 180)
+			(uuid "ea55e021-00c9-4f87-9019-5d6ba26f9fe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3V3A_EXT" input
+			(at 43.18 57.15 180)
+			(uuid "43cb7204-3a3a-4b93-821b-c837f0e47753")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+3V3D_EXT" input
+			(at 43.18 54.61 180)
+			(uuid "eba65fa8-b389-4043-922d-a4926bb52347")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
