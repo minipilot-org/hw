@@ -648,7 +648,7 @@
         "uuid": "93973d81-e56e-4416-82f2-1dfd4a60638c"
       }
     ],
-    "used_designators": "J1-3,L1,R1-5,#PWR1-22,C1-14,U1-5",
+    "used_designators": "J1-4,L1,R1-7,#PWR1-39,Card1,C1-18,U1-8",
     "variants": []
   },
   "sheets": [
@@ -667,6 +667,22 @@
     [
       "23ac5bea-44ab-45c0-b875-f9d010f2f22c",
       "IMU1 - BMI270"
+    ],
+    [
+      "66c7b34f-faa4-47e9-93e3-fedaf784adf5",
+      "Baro - BMP388"
+    ],
+    [
+      "aba9f1c5-1977-41ba-9963-2075ab42d3ff",
+      "Mag - QMC5883P"
+    ],
+    [
+      "f4a42255-6df0-4090-8c91-e15e9c977633",
+      "SD Card"
+    ],
+    [
+      "ea567220-f6be-4a5a-bad7-481c5d04abec",
+      "USB"
     ]
   ],
   "text_variables": {},
