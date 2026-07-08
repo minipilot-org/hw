@@ -648,7 +648,7 @@
         "uuid": "93973d81-e56e-4416-82f2-1dfd4a60638c"
       }
     ],
-    "used_designators": "J1-4,L1,R1-7,#PWR1-39,Card1,C1-18,U1-8",
+    "used_designators": "X1,S1-2,J1-7,L1,R1-12,#PWR1-54,D1-3,Card1,C1-30,U1-9",
     "variants": []
   },
   "sheets": [
@@ -683,6 +683,10 @@
     [
       "ea567220-f6be-4a5a-bad7-481c5d04abec",
       "USB"
+    ],
+    [
+      "09a9c09f-1674-4c4e-ba09-4ab6cf1e39f6",
+      "MCU - STM32F405RG"
     ]
   ],
   "text_variables": {},
